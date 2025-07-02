@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion'
-import { Coffee, Cookie, Sandwich, IceCream } from 'lucide-react'
+import { Coffee, IceCream } from 'lucide-react'
 
 const Menu = () => {
   const menuCategories = [

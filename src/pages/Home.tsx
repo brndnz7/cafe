@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion'
 import { Link } from 'react-router-dom'
-import { Coffee, Award, Users, Clock, ArrowRight, Star, Play } from 'lucide-react'
+import { Coffee, Award, Users, Clock } from 'lucide-react'
 
 const Home = () => {
   const features = [
@@ -30,29 +30,7 @@ const Home = () => {
     }
   ]
 
-  const testimonials = [
-    {
-      name: 'Marie Dubois',
-      text: 'Le meilleur café de Paris ! L\'ambiance est chaleureuse et le service impeccable.',
-      rating: 5,
-      avatar: 'https://images.unsplash.com/photo-1494790108755-2616b612b786?w=80&h=80&fit=crop&crop=face',
-      title: 'Architecte'
-    },
-    {
-      name: 'Pierre Martin',
-      text: 'Mes matins commencent toujours ici. Leur cappuccino est tout simplement parfait.',
-      rating: 5,
-      avatar: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=80&h=80&fit=crop&crop=face',
-      title: 'Entrepreneur'
-    },
-    {
-      name: 'Sophie Laurent',
-      text: 'Un lieu parfait pour travailler ou se détendre. Je recommande vivement !',
-      rating: 5,
-      avatar: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=80&h=80&fit=crop&crop=face',
-      title: 'Designer'
-    }
-  ]
+
 
   return (
     <div className="min-h-screen bg-cream-25">
